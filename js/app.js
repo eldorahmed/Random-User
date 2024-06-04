@@ -40,7 +40,7 @@ names.forEach((el) => {
 // delete user
 
 document.addEventListener('click',(e)=>{
-    if(e.target.classList[0]='user__delete--btn'){
+    if(e.target.classList[0]=='user__delete--btn'){
         e.target.parentElement.remove()
     }
     if(!user.children.length){
