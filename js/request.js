@@ -12,7 +12,7 @@ const loaderToggle = (toggle) => {
   } else {
     setTimeout(() => {
       overlay.classList.add("hidden");
-    }, 1000);
+    }, 2000);
   }
 };
 
